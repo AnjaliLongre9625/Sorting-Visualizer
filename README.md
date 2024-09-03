@@ -24,17 +24,12 @@ To run the Sorting Visualizer locally, follow these steps:
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/sorting-visualizer.git
+git clone https:(https://github.com/AnjaliLongre9625/Sorting-Visualizer)
 Navigate to the project directory:
 
 bash
-cd sorting-visualizer
-Open the index.html file in your web browser:
-
-bash
-Copy code
-open index.html
-Alternatively, you can use a local web server to serve the files.
+cd Sorting-Visualizer
+Open the index.html file in your VsCode
 
 Usage
 Select a sorting algorithm from the dropdown menu.
@@ -46,9 +41,11 @@ Sorting Algorithms Implemented
 The following sorting algorithms are currently implemented in the visualizer:
 
 Bubble Sort: A simple comparison-based sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements, and swaps them if they are in the wrong order.
+
 Selection Sort: An in-place comparison-based algorithm that divides the input list into two parts: a sorted and an unsorted region, repeatedly selecting the smallest (or largest) element from the unsorted region and moving it to the sorted region.
+
 Insertion Sort: Builds the final sorted array one item at a time, with the benefit of being more efficient than more complex algorithms for small data sets.
+
 Merge Sort: A divide-and-conquer algorithm that divides the unsorted list into n sublists until each sublist contains a single element, and then merges these sublists to produce a sorted list.
+
 Quick Sort: An efficient, in-place divide-and-conquer sorting algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
-Heap Sort: Converts the array to a heap data structure, then repeatedly extracts the maximum element from the heap and rebuilds the heap until the array is sorted.
-More algorithms may be added in future updates.
